@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <x-navigation></x-navigation>
+<x-layout>
+    <x-slot:title>
+        Why
+    </x-slot:title>
     <h4>Mūsdienu straujajā dzīves ritmā efektīva laika plānošana un uzdevumu pārvaldība ir kļuvusi par būtisku ikdienas sastāvdaļu. Darāmo darbu saraksta vietne piedāvā strukturētu pieeju, kas palīdz lietotājiem organizēt savus pienākumus un sasniegt mērķus.</h4>
 
     <h3>Kāpēc darāmo darbu saraksts ir nepieciešams ikvienam?</h3>
@@ -27,5 +21,4 @@
             Līdzsvars starp darbu un privāto dzīvi: Saraksts palīdz nodalīt profesionālos pienākumus no personīgajiem, veicinot veselīgu darba un dzīves balansu.
         </li>
     </ol>
-</body>
-</html>
+</x-layout>
