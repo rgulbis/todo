@@ -96,7 +96,7 @@ textarea {
     width: 300px;
 }
 
-button {
+button, .button {
     background-color: var(--primary);
     color: var(--primary-content);
     border-radius: 10px;
@@ -104,6 +104,12 @@ button {
     border: none;
 }
 
-button:hover {
+button:hover, .button:hover {
     background-color: var(--primary-dark);
+    text-decoration: none;
+    color: var(--primary-content);
+}
+
+.strikethrough, .strikethrough:hover {
+    text-decoration: line-through;
 }
