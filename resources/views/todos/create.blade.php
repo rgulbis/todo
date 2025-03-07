@@ -4,7 +4,7 @@
     
     <form method="POST" action="/todos">
         @csrf
-        <input name="content" />
+        <input name="content" value="{{ old("content", "") }}"/>
         <button>Saglabāt</button>
     </form>
     @error("content")

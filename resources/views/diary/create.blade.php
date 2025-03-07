@@ -4,8 +4,8 @@
     
     <form method="POST" action="/diaries">
         @csrf
-        <input name="title"/> <input name="date" type="date"><br>
-        <textarea name="body"></textarea><br>
+        <input name="title" value="{{ old("title", "") }}"/> <input name="date" type="date" value="{{ old("date", "") }}"><br>
+        <textarea name="body">{{ old("body", "") }}</textarea><br>
         <button>Saglabāt</button>
     </form>
     @error("title")
